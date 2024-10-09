@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--flaticon----------------------------->
+    <link rel="stylesheet"
+    href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--SWIPER CSS-->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!--------------------------------Css-->
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="img.tb/icons8-flor-64.png">
+  <title>Oli</title>
+
+</head>
+<body>
+    <!-----header-->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container ">
+                <div class="header__content">
+                    <span>WSP (+54) 911 38175256</span>
+                    
+                    
+                    <span>Showroom</span>
+                </div>
+
+
+                <p class="header__alert-news">Indumentaria para Chicos</p>
+                <a href="login-register.html" class="header__top-action">Log In / Sign Up</a>
+
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="img.tb/OLI.png" alt="" class="nav__logo-img"/>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link active-link">Tienda</a>  
+                    </li>
+                    <li class="nav__item">
+                        <a href="accounts.html" class="nav__link">Cuenta</a>  
+                    </li> 
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">Ofertas</a>  
+                    </li>
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link">Acceso</a>  
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input
+                    type="text"
+                    placeholder="search for items..."
+                    class="form__input"
+                    />
+                    <button class="search__btn">
+                        <img src="img.tb/search-heart.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-btn">
+                    <img src="img.tb/heart.svg" alt=""/>
+                    <samp class="count">3</samp>
+                </a>
+
+                <a href="cart.html" class="header__action-btn">
+                    <img src="img.tb/bag-heart.svg" alt=""/>
+                    <samp class="count">3</samp>
+                </a>
+
+            </div>
+        </nav>
+    </header> 
+
+    <!-----------Main----------------------------------->
+    <main class="main">
+
+    <!--Breadcrumb---------------------------------------->
+    <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+            <li><a href="index.html" class="breadcrumb__link">HOME</a></li>
+            <li><span class="breadcrumb__link">></span></li>
+            <li><span class="breadcrumb__link">Shop</span></li>
+
+        </ul>
+    </section>
+
+    <!----------------------------------productos-->
+    <section class="productos section--lg container">
+        <P class="total__productos">We found <span> 200 </span> items for you</P>
+    
+
+         <div class="productos__container grid"> 
+            <div class="producto__item">
+              <div class="producto__banner">
+                <a href="details.html" class="producto__imagen">
+
+                <img src="categoria/categoria.11.jpg" 
+                alt=""
+                 class="producto__img default"/>
+            
+                <img src="categoria/categoria.11.jpg" 
+                alt="" 
+                class="producto__img hover"/>
+            </a>
+            <div class="producto__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="bi bi-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="bi bi-suit-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="compare">
+                    <i class="bi-shuffle"></i>
+                </a>
+
+            </div>
+            <div class="producto__badge light-blue">30%</div>
+            </div>
+            
+            <div class="producto__content">
+                <span class="producto__categoria">Clothing</span>
+                <a href="details.html">
+                    <h3 class="producto__title"> B-Azul</h3>
+                </a>
+                <div class="producto__rating">
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <div class="producto__precio flex">
+                    <span class="nuevo__precio">$20.000</span>
+                    <span class="old__precio">$23.000</span>
+                </div>
+                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                  <i class="bi bi-bag-heart-fill"></i>
+                </a>
+      </div>
+
+      </div>
+
+           <div class="producto__item">
+        <div class="producto__banner">
+          <a href="details.html" class="producto__imagen">
+
+          <img src="categoria/categoria12.jpg" 
+          alt=""
+           class="producto__img default"/>
+      
+          <img src="categoria/categoria12.jpg" 
+          alt="" 
+          class="producto__img hover"/>
+      </a>
+      <div class="producto__actions">
+          <a href="#" class="action__btn" aria-label="Quick View">
+            <i class="bi bi-eye"></i>
+          </a>
+
+          <a href="#" class="action__btn" aria-label="Add To Wishlist">
+            <i class="bi bi-suit-heart"></i>
+          </a>
+
+          <a href="#" class="action__btn" aria-label="compare">
+              <i class="bi-shuffle"></i>
+          </a>
+
+      </div>
+      <div class="producto__badge light-blue">30%</div>
+      </div>
+      
+      <div class="producto__content">
+          <span class="producto__categoria">Clothing</span>
+          <a href="details.html">
+              <h3 class="producto__title"> B-Azul</h3>
+          </a>
+          <div class="producto__rating">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <div class="producto__precio flex">
+              <span class="nuevo__precio">$20.000</span>
+              <span class="old__precio">$23.000</span>
+          </div>
+          <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+            <i class="bi bi-bag-heart-fill"></i>
+          </a>
+</div>
+
+      </div>
+
+
+          <div class="producto__item">
+        <div class="producto__banner">
+          <a href="details.html" class="producto__imagen">
+
+          <img src="categoria/categoria.13.jpg" 
+          alt=""
+           class="producto__img default"/>
+      
+          <img src="categoria/categoria.13.jpg" 
+          alt="" 
+          class="producto__img hover"/>
+      </a>
+      <div class="producto__actions">
+          <a href="#" class="action__btn" aria-label="Quick View">
+            <i class="bi bi-eye"></i>
+          </a>
+
+          <a href="#" class="action__btn" aria-label="Add To Wishlist">
+            <i class="bi bi-suit-heart"></i>
+          </a>
+
+          <a href="#" class="action__btn" aria-label="compare">
+              <i class="bi-shuffle"></i>
+          </a>
+
+      </div>
+      <div class="producto__badge light-blue">30%</div>
+      </div>
+      
+      <div class="producto__content">
+          <span class="producto__categoria">Clothing</span>
+          <a href="details.html">
+              <h3 class="producto__title"> B-Azul</h3>
+          </a>
+          <div class="producto__rating">
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <div class="producto__precio flex">
+              <span class="nuevo__precio">$20.000</span>
+              <span class="old__precio">$23.000</span>
+          </div>
+          <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+            <i class="bi bi-bag-heart-fill"></i>
+          </a>
+</div>
+
+     </div>
+
+
+     
+         <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria14.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria14.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+    </div>
+
+    
+         <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria15.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria15.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+    </div>
+
+    
+         <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria16.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria16.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+   </div>
+
+   
+         <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria17.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria17.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+  </div>
+
+  
+        <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria18.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria18.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+  </div>
+
+
+        <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria20.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria20.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+  </div>
+
+
+
+        <div class="producto__item">
+    <div class="producto__banner">
+      <a href="details.html" class="producto__imagen">
+
+      <img src="categoria/categoria21.jpg" 
+      alt=""
+       class="producto__img default"/>
+  
+      <img src="categoria/categoria21.jpg" 
+      alt="" 
+      class="producto__img hover"/>
+  </a>
+  <div class="producto__actions">
+      <a href="#" class="action__btn" aria-label="Quick View">
+        <i class="bi bi-eye"></i>
+      </a>
+
+      <a href="#" class="action__btn" aria-label="Add To Wishlist">
+        <i class="bi bi-suit-heart"></i>
+      </a>
+
+      <a href="#" class="action__btn" aria-label="compare">
+          <i class="bi-shuffle"></i>
+      </a>
+
+  </div>
+  <div class="producto__badge light-blue">30%</div>
+  </div>
+  
+  <div class="producto__content">
+      <span class="producto__categoria">Clothing</span>
+      <a href="details.html">
+          <h3 class="producto__title"> B-Azul</h3>
+      </a>
+      <div class="producto__rating">
+        <i class="bi bi-star"></i>
+        <i class="bi bi-star"></i>
+        <i class="bi bi-star"></i>
+        <i class="bi bi-star"></i>
+        <i class="bi bi-star"></i>
+      </div>
+      <div class="producto__precio flex">
+          <span class="nuevo__precio">$20.000</span>
+          <span class="old__precio">$23.000</span>
+      </div>
+      <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+        <i class="bi bi-bag-heart-fill"></i>
+      </a>
+</div>
+
+  </div> 
+  
+  
+       <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria22.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria22.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+   </div>
+
+        <div class="producto__item">
+      <div class="producto__banner">
+        <a href="details.html" class="producto__imagen">
+
+        <img src="categoria/categoria23.jpg" 
+        alt=""
+         class="producto__img default"/>
+    
+        <img src="categoria/categoria23.jpg" 
+        alt="" 
+        class="producto__img hover"/>
+    </a>
+    <div class="producto__actions">
+        <a href="#" class="action__btn" aria-label="Quick View">
+          <i class="bi bi-eye"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="Add To Wishlist">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+
+        <a href="#" class="action__btn" aria-label="compare">
+            <i class="bi-shuffle"></i>
+        </a>
+
+    </div>
+    <div class="producto__badge light-blue">30%</div>
+    </div>
+    
+    <div class="producto__content">
+        <span class="producto__categoria">Clothing</span>
+        <a href="details.html">
+            <h3 class="producto__title"> B-Azul</h3>
+        </a>
+        <div class="producto__rating">
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+        <div class="producto__precio flex">
+            <span class="nuevo__precio">$20.000</span>
+            <span class="old__precio">$23.000</span>
+        </div>
+        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+          <i class="bi bi-bag-heart-fill"></i>
+        </a>
+</div>
+
+   </div>
+
+   <ul class="pagination">
+    <li><a href="#" class="pagination__link active">01</a></li>
+    <li><a href="#" class="pagination__link">02</a></li>
+    <li><a href="#" class="pagination__link">03</a></li>
+    <li><a href="#" class="pagination__link">...</a></li>
+    <li><a href="#" class="pagination__link">16</a></li>
+
+    <li><a href="#" class="pagination__link icon">
+      <i class="bi bi-chevron-double-right"></i>
+    </a></li>
+   </ul>
+   </section>
+
+    <!-------------------------------------Newsletter🌙-->
+<section class="newsletter section">
+    <div class="newsletter__container container grid">
+        <h4 class="newsletter__title flex">
+            <img src="img.tb/icons8-como-mensaje-96.png" alt="" class="newsletter__icon">
+            Sing up to newsletter</h4>
+
+            <p class="newsletter__description">Recibi un cupon de regalo de $5.000 por tu primera compra</p>
+
+            <form action="" class="newsletter__form">
+                <input type="text" placeholder="dejanos tu email" class="newsletter__input"/>
+
+
+                <button type="submit" class="newsletter__btn">Suscribite</button>
+            </form>
+
+    </div>
+
+</section>
+</main>
+<!---------------------------------------Footer🌙-->
+<footer class="footer container">
+    <div class="footer__container grid">
+        <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+                <img src="img.tb/OLI.png" alt="" class="footer__logo-img">
+            </a>
+
+            <h4 class="footer__subtitle">Contactos</h4>
+
+            <p class="footer__description">
+                <span>Direccion:</span>Buenos Aires Argentina
+            </p> 
+            
+            <p class="footer__description">
+                <span>Telefono:</span> +54 11-38175256
+            </p> 
+            
+            <p class="footer__description">
+                <span>Horarios:</span> 09:00 a 21:00 
+                De Lunes a Sabados
+            </p>
+
+         <div class="footer__social">
+                <h4 class="footer__subtitle">Seguinos en nuestras redes</h4>
+
+                <div class="footer__social-links flex">
+                    <a href="">
+                        <img src="img.tb/icons8-facebook-96.png" alt="" class="footer__social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img.tb/icons8-instagram-96.png" alt="" class="footer__social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img.tb/icons8-whatsapp-96.png" alt="" class="footer__social-icon">
+                    </a>
+                </div>
+            </div>
+    
+
+        
+        <div class="footer__content">
+                <h3 class="footer__title">Direccion</h3>
+
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">Sobre nosotros</a></li>
+                    <li><a href="" class="footer__link">Envios</a></li>
+                    <li><a href="" class="footer__link">Politicas de privacidad</a></li>  
+                    <li><a href="" class="footer__link">Terminos y condiciones</a></li>
+                    <li><a href="" class="footer__link">Contactanos</a></li> 
+                    <li><a href="" class="footer__link">Terminos y condiciones</a></li> 
+                </ul>
+            </div>
+        </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Nuestras redes</h3>
+
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">Iniciar secion</a></li>
+                    <li><a href="" class="footer__link">Ver carrito</a></li>
+                    <li><a href="" class="footer__link">Lista de deseos</a></li>  
+                    <li><a href="" class="footer__link">Ayuda</a></li> 
+                    <li><a href="" class="footer__link">Orden</a></li>
+               </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Formas de pago</h3>
+                <img src="img.tb/icons8-visa-32.png" alt="" class="payment__img">
+
+                <img src="img.tb/icons8-mercado-pago-32.png" alt="" class="payment__img">
+
+
+            </div>
+        </div>
+
+
+        <div class="footer__bottom">
+            <p class="copyright">&copy; 2024 OLI. Derechos reservados</p>
+            <span class="designer">designed by  <i class="bi bi-moon-stars"></i> CodeMoon</span>
+        </div>
+
+
+        </div>
+</footer>
+
+
+    
+     <!--swiper js-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!--main JS-->
+     <script src="main.js"></script>
+
+
+     <!---conexion-->
+<script src="conexion.js"></script>
+    
+</body>
+</html>

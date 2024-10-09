@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=======FLACTICON----->
+     <link rel="stylesheet"
+     href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--SWIPER CSS-->
+
+         <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+            <!--CSS-->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="img.tb/icons8-flor-64.png">
+    <title>Oli</title>
+</head>
+<body>
+            <!--========HEADER========-->
+  <header class="header">
+    <div class="header__top">
+        <div class="header__container container ">
+            <div class="header__content">
+                <span>WSP (+54) 911 38175256</span>
+                
+                
+                <span>Showroom</span>
+            </div>
+
+
+            <p class="header__alert-news">Indumentaria para Chicos</p>
+            <a href="login-register.html" class="header__top-action">Log In / Sign Up</a>
+
+        </div>
+    </div>
+
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+            <img src="img.tb/OLI.png" alt="" class="nav__logo-img"/>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="shop.html" class="nav__link">Tienda</a>  
+                </li>
+                <li class="nav__item">
+                    <a href="accounts.html" class="nav__link">Cuenta</a>  
+                </li> 
+                <li class="nav__item">
+                    <a href="compare.html" class="nav__link active-link">Ofertas</a>  
+                </li>
+                <li class="nav__item">
+                    <a href="login-register.html" class="nav__link">Acceso</a>  
+                </li>
+            </ul>
+
+            <div class="header__search">
+                <input
+                type="text"
+                placeholder="search for items..."
+                class="form__input"
+                />
+                <button class="search__btn">
+                    <img src="img.tb/search-heart.svg" alt="" />
+                </button>
+            </div>
+        </div>
+
+        <div class="header__user-actions">
+            <a href="wishlist.html" class="header__action-btn">
+                <img src="img.tb/heart.svg" alt=""/>
+                <samp class="count">3</samp>
+            </a>
+
+            <a href="cart.html" class="header__action-btn">
+                <img src="img.tb/bag-heart.svg" alt=""/>
+                <samp class="count">3</samp>
+            </a>
+
+        </div>
+    </nav>
+</header>  
+
+<!--Breadcrumb🌙---------------------------------------->
+<section class="breadcrumb">
+    <ul class="breadcrumb__list flex container">
+        <li><a href="index.html" class="breadcrumb__link">HOME</a></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Shop</span></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Ofertas</span></li>
+    </ul>
+</section>
+
+<!--------------------------------------Compare🌙-->
+<section class="compare container section--lg">
+    <table class="compare__table">
+        <tr>
+            <th>imagen</th>
+            <td><img src="categoria/categoria23.jpg" alt="" class="compare__img"></td>
+
+            <td><img src="categoria/categoria26.jpg" alt="" class="compare__img"></td>
+
+            <td><img src="categoria/categoria24.jpg" alt="" class="compare__img"></td>
+        </tr>
+
+        <tr>
+            <th>Nombre</th>
+            <td><h3 class="table__title">Buso MOON</h3></td>
+            <td><h3 class="table__title">Vestido Issa</h3></td>
+            <td><h3 class="table__title">Vestido Bella</h3></td>
+        </tr>
+
+        <tr>
+            <th>Precio</th>
+            <td><span class="table__price">$35</span></td>
+            <td><span class="table__price">$67</span></td>
+            <td><span class="table__price">$24</span></td>
+        </tr>
+
+        <tr>
+            <th>Descripcion</th>
+            <td>
+                <p> Buso de algodon con friza.
+                </p>
+            </td>
+
+            <td>
+                <p> Vestido jardinero, 
+                    super canchero.
+                </p>
+            </td>
+
+            <td>
+                <p>Vestido estilo romantico
+                </p>
+            </td>
+
+            <tr>
+                <th>Colores</th>
+                <td><ul class="color__list compare__colors">
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(0, 0%, 1%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(353, 100%, 67%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color:hsl(170, 71%, 61%)"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(304, 100%, 78%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(20, 2%, 34%);"></a>
+                    </li>
+                </ul></td>
+
+                <td><ul class="color__list compare__colors">
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(0, 12%, 90%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(353, 85%, 27%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color:hsl(244, 86%, 47%)"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(276, 83%, 54%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(51, 79%, 59%);"></a>
+                    </li>
+                </ul></td>
+
+                <td><ul class="color__list compare__colors">
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(0, 0%, 1%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(91, 87%, 56%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color:hsl(169, 22%, 90%)"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(304, 100%, 78%);"></a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="color__link" style="background-color: hsl(0, 82%, 41%);"></a>
+                    </li>
+                </ul></td>
+
+            </tr>
+        </tr>
+
+        <tr>
+            <th>Stock</th>
+            <td><span class="table__stock">Fuera de Stock</span></td>
+            <td><span class="table__stock">Fuera de Stock</span></td>
+            <td><span class="table__stock">Fuera de Stock</span></td>
+        </tr>
+
+        
+        <tr>
+            <th>Peso</th>
+            <td><span class="table__weight">150 gramos</span></td>
+            <td><span class="table__weight">150 gramos</span></td>
+            <td><span class="table__weight">150 gramos</span></td>
+        </tr>
+
+        <tr>
+            <th>Dimesion</th>
+            <td><span class="table__demension">N/A</span></td>
+            <td><span class="table__demension">N/A</span></td>
+            <td><span class="table__demension">N/A</span></td>
+        </tr>
+
+        <tr>
+            <th>Comprar</th>
+            <td><a href="" class="btn btn--sm">Agregar al Carrito</a></td>
+            <td><a href="" class="btn btn--sm">Agregar al Carrito</a></td>
+            <td><a href="" class="btn btn--sm">Agregar al Carrito</a></td>
+        </tr>
+        
+        <tr>
+            <th>Eliminar</th>
+            <td><i class="bi bi-trash table__trash"></i></td>
+            <td><i class="bi bi-trash table__trash"></i></td>
+            <td><i class="bi bi-trash table__trash"></i></td>
+        </tr>
+    </table>
+</section>
+
+  <!-------------------------------------Newsletter🌙-->
+  <section class="newsletter section">
+    <div class="newsletter__container container grid">
+        <h4 class="newsletter__title flex">
+            <img src="img.tb/icons8-como-mensaje-96.png" alt="" class="newsletter__icon">
+            Sing up to newsletter</h4>
+
+            <p class="newsletter__description">Recibi un cupon de regalo de $5.000 por tu primera compra</p>
+
+            <form action="" class="newsletter__form">
+                <input type="text" placeholder="dejanos tu email" class="newsletter__input"/>
+
+
+                <button type="submit" class="newsletter__btn">Suscribite</button>
+            </form>
+
+    </div>
+
+</section>
+
+
+  <!---------------------------------------Footer🌙-->
+  <footer class="footer container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <a href="index.html" class="footer__logo">
+                        <img src="img.tb/OLI.png" alt="" class="footer__logo-img">
+                    </a>
+        
+                    <h4 class="footer__subtitle">Contactos</h4>
+                
+                    <p class="footer__description">
+                        <span>Direccion:</span>Buenos Aires Argentina
+                    </p> 
+                    
+                    <p class="footer__description">
+                        <span>Telefono:</span> +54 11-38175256
+                    </p> 
+                    
+                    <p class="footer__description">
+                        <span>Horarios:</span> 09:00 a 21:00 
+                        De Lunes a Sabados
+                    </p>
+        
+                 <div class="footer__social">
+                        <h4 class="footer__subtitle">Seguinos en nuestras redes</h4>
+        
+                        <div class="footer__social-links flex">
+                            <a href="">
+                                <img src="img.tb/icons8-facebook-96.png" alt="" class="footer__social-icon">
+                            </a>
+                            <a href="">
+                                <img src="img.tb/icons8-instagram-96.png" alt="" class="footer__social-icon">
+                            </a>
+                            <a href="">
+                                <img src="img.tb/icons8-whatsapp-96.png" alt="" class="footer__social-icon">
+                            </a>
+                        </div>
+                    </div>
+            
+        
+                
+                     <div class="footer__content">
+                        <h3 class="footer__title">Direccion</h3>
+        
+                        <ul class="footer__links">
+                            <li><a href="" class="footer__link">Sobre nosotros</a></li>
+                            <li><a href="" class="footer__link">Envios</a></li>
+                            <li><a href="" class="footer__link">Politicas de privacidad</a></li>  
+                            <li><a href="" class="footer__link">Terminos y condiciones</a></li>
+                            <li><a href="" class="footer__link">Contactanos</a></li> 
+                            <li><a href="" class="footer__link">Terminos y condiciones</a></li> 
+                        </ul>
+                    </div>
+                </div>
+        
+                    <div class="footer__content">
+                        <h3 class="footer__title">Nuestras redes</h3>
+        
+                        <ul class="footer__links">
+                            <li><a href="" class="footer__link">Iniciar secion</a></li>
+                            <li><a href="" class="footer__link">Ver carrito</a></li>
+                            <li><a href="" class="footer__link">Lista de deseos</a></li>  
+                            <li><a href="" class="footer__link">Ayuda</a></li> 
+                            <li><a href="" class="footer__link">Orden</a></li>
+                       </ul>
+                    </div>
+        
+                    <div class="footer__content">
+                        <h3 class="footer__title">Formas de pago</h3>
+                        <img src="img.tb/icons8-visa-32.png" alt="" class="payment__img">
+        
+                        <img src="img.tb/icons8-mercado-pago-32.png" alt="" class="payment__img">
+        
+        
+                    </div>
+                </div>
+        
+        
+                <div class="footer__bottom">
+                    <p class="copyright">&copy; 2024 OLI. Derechos reservados</p>
+                    <span class="designer">designed by <i class="bi bi-moon-stars-fill"></i> CodeMoon</span>
+                </div>
+        
+        
+                </div>
+   </footer> 
+        
+         
+ <!-------------SWIPER JS-->
+        
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+<!--main js-->
+ <script src="main.js"></script>
+
+ <!---conexion-->
+<script src="conexion.js"></script>
+    
+        
+    
+</body>
+</html>

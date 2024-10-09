@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--=======FLACTICON----->
+ <link rel="stylesheet"
+ href="https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-straight/css/uicons-thin-straight.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<!--SWIPER CSS-->
+
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <!--CSS-->
+<link rel="stylesheet" href="style.css"/>
+<link rel="icon" href="img.tb/icons8-flor-64.png">
+<title>Oli</title>
+</head>
+<body>
+                <!--========HEADER========-->
+  <header class="header">
+    <div class="header__top">
+        <div class="header__container container ">
+            <div class="header__content">
+                <span>WSP (+54) 911 38175256</span>
+                
+                
+                <span>Showroom</span>
+            </div>
+
+
+            <p class="header__alert-news">Indumentaria Para Chicos</p>
+            <a href="login-register.html" class="header__top-action">Log In / Sign Up</a>
+
+        </div>
+    </div>
+
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+            <img src="img.tb/OLI.png" alt="" class="nav__logo-img"/>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="shop.html" class="nav__link">Tienda</a>  
+                </li>
+                <li class="nav__item">
+                    <a href="accounts.html" class="nav__link active-link">Cuenta</a>  
+                </li> 
+                <li class="nav__item">
+                    <a href="compare.html" class="nav__link ">Ofertas</a>  
+                </li>
+                <li class="nav__item">
+                    <a href="login-register.html" class="nav__link">Acceso</a>  
+                </li>
+            </ul>
+
+            <div class="header__search">
+                <input
+                type="text"
+                placeholder="search for items..."
+                class="form__input"
+                />
+                <button class="search__btn">
+                    <img src="img.tb/search-heart.svg" alt="" />
+                </button>
+            </div>
+        </div>
+
+        <div class="header__user-actions">
+            <a href="wishlist.html" class="header__action-btn">
+                <img src="img.tb/heart.svg" alt=""/>
+                <samp class="count">3</samp>
+            </a>
+
+            <a href="cart.html" class="header__action-btn">
+                <img src="img.tb/bag-heart.svg" alt=""/>
+                <samp class="count">3</samp>
+            </a>
+
+        </div>
+    </nav>
+</header> 
+
+
+<!--Breadcrumb🌙---------------------------------------->
+<section class="breadcrumb">
+    <ul class="breadcrumb__list flex container">
+        <li><a href="index.html" class="breadcrumb__link">HOME</a></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Cuenta</span></li>
+    </ul>
+</section>
+
+
+<!---------------------------------------Accounts🌙-->
+<section class="accounts section--lg">
+    <div class="accounts__container container grid">
+        <div class="account__tabs">
+
+            <p class="account__tab active-tab" data-target="#dashboard">
+                <i class="bi bi-sliders2"></i>Panel
+            </p>
+
+            <p class="account__tab" data-target="#orders">
+                <i class="bi bi-bag-heart"></i>Pedidos
+            </p>
+
+            <p class="account__tab" data-target="#update-profile">
+                <i class="bi bi-person-heart"></i> Actualizar el Perfil
+            </p>
+            
+            <p class="account__tab" data-target="#address">
+                <i class="bi bi-geo-alt"></i> Direccion
+            </p>
+
+            <p class="account__tab" data-target="#change-password">
+                <i class="bi bi-person-circle"></i> Cambiar la Contraseña
+            </p>
+
+            <p class="account__tab"><i class="bi bi-box-arrow-right">
+             </i> Cerrar Secion
+           </p>
+        </div>
+        
+        
+    
+        <div class="tabs__content"> 
+            <div class="tab__content active-tab"  id="dashboard">
+                <h3 class="tab__header">Hola Eliana!</h3>
+
+                <div class="tab__body">
+                    <p class="tab__description">
+                     Desde el panel de su cuenta.Puede verificar y ver facilmente su edicion, <br>
+                     pedidos recientes, administrar sus direcciones de envio y facturacion, <br>
+                     de Contraseña y detalles de su cuenta.   
+                   </p>
+                </div>
+              
+             <div class="tab__content" content id="orders">
+                <h3 class="tab__header">Su Pedido</h3>
+
+                <div class="tab__body">
+                    <table class="placed__order-table">
+                        <tr>
+                            <th>Pedidos</th>
+                            <th>Fecha</th>
+                            <th>Estado</th>
+                            <th>Total</th>
+                            <th>Comportamiento</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>#1357</td>
+                            <td>Marzo 02, 2024</td>
+                            <td>Procesando</td>
+                            <td>$125.000</td>
+                            <td><a href="#" class="view__order">Vistas</a></td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td>#12468</td>
+                            <td>Abril 02, 2024</td>
+                            <td>Completo</td>
+                            <td>$20.000</td>
+                            <td><a href="#" class="view__order">Vistas</a></td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td>#3030</td>
+                            <td>Marzo 28, 2024</td>
+                            <td>Procesando</td>
+                            <td>$25.000</td>
+                            <td><a href="#" class="view__order">Vistas</a></td>
+                        </tr>
+                    </table>
+                </div>
+             </div>
+
+             
+            <div class="tab__content" content id="update-profile">
+                <h3 class="tab__header">Actualizacion de perfil</h3>
+
+                <div class="tab__body">
+                    <form action="" class="form grid">
+                        <input type="text" placeholder="Nombre de Usuario" class="form__input">
+                        <div class="form__btn">
+                            <button class="btn btn--md">Actualizar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+            <div class="tab__content" content id="address">
+                <h3 class="tab__header">Direccion de Envio</h3>
+
+                <div class="tab__body">
+                    <address class="address">
+                        Alberti 82 <br> Belen de Escobar <br>
+                    </address>
+                    <p class="city">Buenos Aires</p>
+                    <a href="" class="edit">Editar</a>
+                </div>
+            </div>
+
+            <div class="tab__content" content id="change-password">
+                <h3 class="tab__header">Cambiar la Contraseña </h3>
+
+                <div class="tab__body">
+                    <form action="" class="form grid">
+                        <input type="password" placeholder="Contraseña Actual" class="form__input">
+
+                        <input type="password" placeholder="Nueva Contraseña" class="form__input">
+
+                        <input type="password" placeholder="Confirmar Contraseña" class="form__input">
+
+                        <div class="footer__btn">
+                            <button class="btn btn--md">Actualizar</button>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+  <!-------------------------------------Newsletter🌙-->
+  <section class="newsletter section">
+    <div class="newsletter__container container grid">
+        <h4 class="newsletter__title flex">
+            <img src="img.tb/icons8-como-mensaje-96.png" alt="" class="newsletter__icon">
+            Sing up to newsletter</h4>
+
+            <p class="newsletter__description">Recibi un cupon de regalo de $5.000 por tu primera compra</p>
+
+            <form action="" class="newsletter__form">
+                <input type="text" placeholder="dejanos tu email" class="newsletter__input"/>
+
+
+                <button type="submit" class="newsletter__btn">Suscribite</button>
+            </form>
+
+    </div>
+
+</section>
+
+
+
+  <!---------------------------------------Footer🌙-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+        <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+                <img src="img.tb/OLI.png" alt="" class="footer__logo-img">
+            </a>
+
+            <h4 class="footer__subtitle">Contactos</h4>
+        
+            <p class="footer__description">
+                <span>Direccion:</span>Buenos Aires Argentina
+            </p> 
+            
+            <p class="footer__description">
+                <span>Telefono:</span> +54 11-38175256
+            </p> 
+            
+            <p class="footer__description">
+                <span>Horarios:</span> 09:00 a 21:00 
+                De Lunes a Sabados
+            </p>
+
+         <div class="footer__social">
+                <h4 class="footer__subtitle">Seguinos en nuestras redes</h4>
+
+                <div class="footer__social-links flex">
+                    <a href="">
+                        <img src="img.tb/icons8-facebook-96.png" alt="" class="footer__social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img.tb/icons8-instagram-96.png" alt="" class="footer__social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img.tb/icons8-whatsapp-96.png" alt="" class="footer__social-icon">
+                    </a>
+                </div>
+            </div>
+    
+
+        
+             <div class="footer__content">
+                <h3 class="footer__title">Direccion</h3>
+
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">Sobre nosotros</a></li>
+                    <li><a href="" class="footer__link">Envios</a></li>
+                    <li><a href="" class="footer__link">Politicas de privacidad</a></li>  
+                    <li><a href="" class="footer__link">Terminos y condiciones</a></li>
+                    <li><a href="" class="footer__link">Contactanos</a></li> 
+                    <li><a href="" class="footer__link">Terminos y condiciones</a></li> 
+                </ul>
+            </div>
+        </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Nuestras redes</h3>
+
+                <ul class="footer__links">
+                    <li><a href="" class="footer__link">Iniciar secion</a></li>
+                    <li><a href="" class="footer__link">Ver carrito</a></li>
+                    <li><a href="" class="footer__link">Lista de deseos</a></li>  
+                    <li><a href="" class="footer__link">Ayuda</a></li> 
+                    <li><a href="" class="footer__link">Orden</a></li>
+               </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Formas de pago</h3>
+                <img src="img.tb/icons8-visa-32.png" alt="" class="payment__img">
+
+                <img src="img.tb/icons8-mercado-pago-32.png" alt="" class="payment__img">
+
+
+            </div>
+        </div>
+
+
+        <div class="footer__bottom">
+            <p class="copyright">&copy; 2024 OLI. Derechos reservados</p>
+            <span class="designer">designed by <i class="bi bi-moon-stars-fill"></i> CodeMoon</span>
+        </div>
+
+
+        </div>
+</footer> 
+
+ 
+<!-------------SWIPER JS-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--main js-->
+<script src="main.js"></script>
+
+<!---conexion-->
+<script src="conexion.js"></script>
+    
+</body>
+</html>

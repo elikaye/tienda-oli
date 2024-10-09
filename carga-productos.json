@@ -1,0 +1,95 @@
+
+[
+    
+    {
+      "id": 1,
+      "nombre": "Top luna",
+      "precio": 10.000,
+      "imagen": "categoria11.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalon gris",
+        "precio": 19.000,
+        "imagen": "categoria12.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Pantalon nevado",
+        "precio": 20.000,
+        "imagen": "categoria13.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Buzo clasico gris",
+        "precio": 20.000,
+        "imagen": "categoria14.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Short oliva",
+        "precio": 10.000,
+        "imagen": "categoria15.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Saco fresas",
+        "precio": 20.000,
+        "imagen": "categoria16.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Buzo aqua",
+        "precio": 20.000,
+        "imagen": "categoria17.jpg"
+      },
+      {
+        "id": 8,
+        "nombre": "Buzo los angeles",
+        "precio": 20.000,
+        "imagen": "categoria18.jpg"
+      },
+      {
+        "id": 9,
+        "nombre": "Vestido chocolate",
+        "precio": 10.000,
+        "imagen": "categoria20.jpg"
+      },
+      {
+        "id": 10,
+        "nombre": "Conjunto fuxia",
+        "precio": 50.000,
+        "imagen": "categoria21.jpg"
+      },
+      {
+        "id": 11,
+        "nombre": "Saco camel",
+        "precio": 35.000,
+        "imagen": "categoria22.jpg"
+      },
+        {
+        "id": 12,
+        "nombre": "Buzo clasico",
+        "precio": 22.000,
+        "imagen": "categoria23.jpg"
+      },
+      {
+        "id": 13,
+        "nombre": "Vestido gris",
+        "precio": 12.000,
+        "imagen": "categoria24.jpg"
+      },
+      {
+        "id": 14,
+        "nombre": "falda acampanada black",
+        "precio": 15.000,
+        "imagen": "categoria25.jpg"
+      },
+      {
+        "id": 15,
+        "nombre": "Jardinero marron",
+        "precio": 20.000,
+        "imagen": "categoria26.jpg"
+      }
+  ]
+  
